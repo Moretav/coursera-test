@@ -10,21 +10,21 @@ h2{
 	padding: 10px ; 
  	background-color: darkred;
  	float
-}
-Div{
+
+
 	background:color silver;
 	font-family:arial;
 	padding: 10px 
 	margin:10px 10px 10px 10px ;
 	border-radius: 10px solid;
 	width: 725px auto;
- P {
- 	heigt: 300px ;
- 	width: 300px ;
- 	background-color: silver;
- }	
-
-<
-  }
-
-  <body>
+ P.one {
+ 	marging: 725px ;
+ 	border: 20px;
+ 	text-aling-left;}
+ 	
+ 
+ 	
+ p.two {
+  text-align: middle 
+}
