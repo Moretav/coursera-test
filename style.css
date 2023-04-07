@@ -1,5 +1,19 @@
-h1{
-	color:blanchedalmond;
-	background-color: yellowgreen;
-	padding: 2px ;
-	width: 400 px ;
+boby{
+	width: 960px;
+	margin: 0 auto;
+}
+#content{
+	overflow: auto;
+	height: 100%;
+}
+#our menu{
+	background-color: silver;
+	padding: 10px solid;
+	margin: 10px solid;
+}
+.p1 .p2 .p3{
+	background-color: darkred;
+	width: 300px;
+	float: left;
+	marging:10px solid;
+}
