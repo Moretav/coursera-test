@@ -2,5 +2,6 @@ p{
 	color: aquamarine;
 	width: 300px;
 	border-color: black;
-	border: 2px;
+	border: 2px solid;
+
 }
