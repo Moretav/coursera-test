@@ -12,11 +12,13 @@ h2{
 	background-color: aqua;
 }
 
-#nav, #feature, .article {
+#nav, .article {
 
 	background-color: darkgray;
 	margin-top: 20px;
 	padding: 10px 10px 10px 10px;
+	border-color: black;
+	border: 5px;
 
 }
 
