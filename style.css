@@ -7,22 +7,17 @@ h1{
 
 h2{
 	border-color: black;
-	border: 5px ;
+	border: 10px ;
 	text-align: center;
-	background-color: aqua;
+	background-color: darkred;
 }
 
-#nav, .article {
+.article {
 
-	background-color: darkgray;
+	background-color: darkgrey;
 	margin-top: 20px;
-	padding: 10px 10px 10px 10px;
-	border-color: black;
-	border: 5px;
-
-}
-
-.article{
-
-	height: 300px;
-}
+	max-height: 950px;
+	max-width: 950px;
+	border-block-start-color: rgb(243, 136, 5);
+	
+	
