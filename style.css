@@ -19,5 +19,10 @@ h2{
 	max-height: 950px;
 	max-width: 950px;
 	border: 10px;
-	
-	
+}
+
+.conteiner{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+
+}
