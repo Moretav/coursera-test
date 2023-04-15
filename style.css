@@ -4,38 +4,33 @@ h1{
 	 text-align: center;
 	 background-color: rgb(16, 148, 148);
 	 max-width: 950px;
+	 margin: auto;
 
 }
+
+
 h2{ 
 	text-align: right;
 	background-color: rgb(158, 9, 9);
 	margin-top: 20px;
-	max-height: 950px;
-	max-width: 950px;
 	
-
 }
+
 .conteiner{
 	width: 90%;
 	max-width: 950px;
-	margin:auto;
 	padding: 40px 0;
-
-
+	margin: auto;
 
 }
 
-conteiner-grid.{
+.conteiner-grid{
 	display: grid;
-	c
-
-	
-    border: 10px;
-    max-height: 950px;
-    max-width: 950px;
+	grid-template-columns:repeat(3,1fr);
+	max-height: 950px;
+    max-width: 950;
   
 }  
-.p{
 
-}
+
 
