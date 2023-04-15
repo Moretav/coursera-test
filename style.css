@@ -17,9 +17,9 @@ h2{
 }
 
 .conteiner{
-	width: 90%;
+	width: 100%;
 	max-width: 950px;
-	padding: 40px 0;
+	padding: 40px 10px;
 	margin: auto;
 
 }
@@ -28,9 +28,14 @@ h2{
 	display: grid;
 	grid-template-columns:repeat(3,1fr);
 	max-height: 950px;
-    max-width: 950;
+    max-width: 950px;
+	gap: 10px;
   
 }  
-
+Body{
+	background-color:rgb(226, 243, 243);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: medium;
+}
 
 
