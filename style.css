@@ -2,27 +2,40 @@
 
 h1{
 	 text-align: center;
+	 background-color: rgb(16, 148, 148);
+	 max-width: 950px;
 
 }
-
-h2{
-	border-color: black;
-	border: 10px ;
-	text-align: center;
-	background-color: darkred;
-}
-
-.article {
-
-	background-color: darkgrey;
+h2{ 
+	text-align: right;
+	background-color: rgb(158, 9, 9);
 	margin-top: 20px;
 	max-height: 950px;
 	max-width: 950px;
-	border: 10px;
-}
+	
 
+}
 .conteiner{
-  display:grid;
-  grid-template-columns: 1fr 1fr;
+	width: 90%;
+	max-width: 950px;
+	margin:auto;
+	padding: 40px 0;
+
+
 
 }
+
+conteiner-grid.{
+	display: grid;
+	c
+
+	
+    border: 10px;
+    max-height: 950px;
+    max-width: 950px;
+  
+}  
+.p{
+
+}
+
