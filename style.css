@@ -1,41 +1,5 @@
 
 
-h1{
-	 text-align: center;
-	 background-color: rgb(16, 148, 148);
-	 max-width: 950px;
-	 margin: auto;
 
-}
-
-
-h2{ 
-	text-align: right;
-	background-color: rgb(158, 9, 9);
-	margin-top: 20px;
-	
-}
-
-.conteiner{
-	width: 100%;
-	max-width: 950px;
-	padding: 40px 10px;
-	margin: auto;
-
-}
-
-.conteiner-grid{
-	display: grid;
-	grid-template-columns:repeat(3,1fr);
-	max-height: 950px;
-    max-width: 950px;
-	gap: 10px;
-  
-}  
-Body{
-	background-color:rgb(226, 243, 243);
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-size: medium;
-}
 
 
