@@ -1,12 +1,12 @@
 body {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	margin: 0;
-	padding: 0;
+	margin: 5px;
+	padding: 5px;
 }
 
 
 h1{ 
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 	text-align: center;
 	color: rgb(10, 236, 10);
 	 
@@ -18,76 +18,57 @@ h1{
 	overflow: none;
 	text-align: center;
 	border: 4px solid black;
-	width: 100px;
     width: 100px;
 	padding: 5px;
 	float: right;
 	margin-right: 36px;
 	margin-top: 0px;
 	font-weight: normal;
-	position: relative;
-	background-color: dark rgb(114, 109, 109);
+	
+	
 
 
 }
 
 .content{
 	border: 5px solid black;
-	width: 93%;
-	height: auto;
+	width: 840px;
+	height:450px;
 	margin-right: 10px;
     padding: 2%;
 	padding-top: 55px;
-	background-color: dark rgb(114, 109, 109);
+	
 
 }
 
 .nema1{ 
-	background-color: rgb(9, 85, 129);
+	background-color: rgb(204, 104, 141);
+	
 	
 }
 
 .name2{
-	background-color: rgb(9, 85, 129);
-
+	background-color: rgb(193, 106, 108);
+	
 }
 
 .name3{
-	background-color:rgb(9, 85, 129);
-
-}
-@media ( min-width: 992px) 
-	{.col-lg-4{
-		float: center;
-		width: 33.33%;
-	}
-}
+	background-color:rgb(173, 179, 141);
 	
-@media (min-wid: 768PX ) and (max-width:992px) 
-   { .col-md-6,.col-md-12 
-	{float: : left; 
-
-	}
-    .col-md-6{
-	width: 50%;
-	}
-	.col-md-12{
-	margin-left: -12px;
-	max-width: 100%;
-	}
 }
-	
 
-@media(min-width: 0px) and (max-width: 767px)
- {.col-sm-12 {
-	float: left;
-	width: 95%;
- }
  .conteiner-name{
-	margin-right: 30px;
+	margin-right: 35px;
  }
 	
+
+
+
+.box {
+	box-sizing: content-box;
+	background-color: grey;
+	width: 450px;
+	height: 400px;
 }
 
 
-# { box-sizing: border-box;}
