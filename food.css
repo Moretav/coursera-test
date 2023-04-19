@@ -1,0 +1,43 @@
+body{
+
+  background-color: antiquewhite;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+
+}
+
+.conteiner{
+    background-color: aqua;
+    border-color: black;
+    border: 2% solid;
+    margin-bottom: 10%;
+    padding: 30%;
+
+
+
+}
+
+.conteinerbox{background-color: aqua;
+    border-color: black;
+    border: 2% solid;
+    margin-bottom: 10%;
+    padding: 30%;
+
+
+
+
+}
+.box1{
+    padding: 0%;
+
+
+
+}
+.Box2{
+    padding: 0%;
+
+}
+.box3{
+    padding: 0%;
+}
