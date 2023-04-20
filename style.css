@@ -1,0 +1,16 @@
+BODY{
+    background-color: brown;
+    padding: 20;
+    max-width: 20px;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+    background-attachment: fixed;
+    background-position: 0%;
+    position: relative;
+}
+@media screen {
+    
+}
