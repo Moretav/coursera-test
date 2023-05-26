@@ -1,14 +1,29 @@
 header{
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
-    color: blue;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+   font-variant: initial;
+
 }
     
 .logo{
     display: flex;
-    justify-content: ;
+    justify-content: space-between;
+    align-items: center;
+  
 }
 .logo img{
        height: 50px;
+       width: 50px;
+      
 }
+h1{
+    color: rgb(1, 1, 29);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+
+}
+body{}
