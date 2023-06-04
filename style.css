@@ -1,3 +1,4 @@
+/*  this part is for reset the html*/
 *{
     margin: 0%;
     padding: 0%;
@@ -5,20 +6,62 @@
     text-decoration: none;
 }
 
-}
-.p1{
-    border-radius: 2PX;
-    color: aliceblue;
+header{
+
+    width: 100%;
+    height: 100px;
+    background-color: #f5f5f5;
+    display: flex;
+    margin: 0; 
     text-align: center;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifS;
-    justify-content: space-between;
+
 }
-.name1{
-    color: rgb(88, 37, 219);
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
+/* this conteiner has contrl about logo*/
+.conteiner{
+  display: flex;
+  width: 150px;
+  height: 125px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+
+}
+.logo{
+  width: 150px;
+  height: 125px;
+
+}
+.logo img{
+  width: 150px;
+  height: 120px;
 }
 
-   
+h2{
+  color: #25259f;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+/* this is for our menu title*/
+h1{
+  display: flex;
+  justify-content: center;
+  color: #0505ba;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+
+}
