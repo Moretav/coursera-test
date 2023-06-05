@@ -69,3 +69,4 @@ h1{
 	background-color: rgb(135, 132, 132);}
 	
 
+	grid-template-columns: repeat(aut-fill minmax(15rem, 1fr) );
