@@ -1,0 +1,20 @@
+<div class="credit-card">
+  <img src="https://www.example.com/images/credit-card.png" alt="Credit card image">
+  <span>
+    <strong>Card number:</strong> 4111 1111 1111 1111
+    <br>
+    <strong>Expiration date:</strong> 01/23
+    <br>
+    <strong>Security code:</strong> 123
+  </span>
+</div>
+
+var jsonFile = new FileReader();
+jsonFile.onload = function() {
+  var data = JSON.parse(this.result);
+  document.getElementById("card-number").innerHTML = data.cardNumber;
+  document.getElementById("card-type").innerHTML = data.cardType;
+  document.getElementById("card-expiration-date").innerHTML = data.cardExpirationDate;
+  document.getElementById("card-cvv").innerHTML = data.cardCVV;
+};
+jsonFile.readAsText(document.getElementById("card-code").files[0]);
