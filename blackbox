@@ -1,3 +1,9 @@
-//create multistate form en html?
+// how ican fixed this codevar var speakWord = "Good Bye";function speak(name) { console.log(speakWord + " " + name)}?
+  
+  
+var speakWord = "Good Bye";
 
- 
+
+function speak(name) {
+  console.log(speakWord + " " + name);
+}
