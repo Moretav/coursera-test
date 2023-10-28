@@ -66,10 +66,9 @@ h1{
 
 .box {
 	box-sizing: content-box;
-	background-color: rgb(135, 132, 132);}
+	background-color: rgb(135, 132, 132);
 	
-
-	grid-template-columns: repeat(aut-fill minmax(15rem, 1fr) );
+grid-template-columns: repeat(aut-fill minmax(15rem, 1fr) );
 	/* /*  this part is for reset the html*/
 *{
     margin: 0%;
@@ -179,4 +178,4 @@ h1{
     overflow: hidden;
     
   }
- 
+}
