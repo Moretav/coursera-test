@@ -1,7 +1,9 @@
-//NEXT BUTTON
-$w('#nextButton1, #progress2, #yourcontactinfo').onClick(function () {
-  $w('#rentalmultistatebox').changeState('yourcontacinfo');
-  $w('#progressBar1').value = 15;$w('#nextButton2, #progress3, #wheretoulive').onClick(function () {
+
+
+/*try this code for daj property rentals by black box
+
+
+$w('#nextButton2, #progress3, #wheretoulive').onClick(function () {
     $w('#rentalmultistatebox').changeState('whereyoulived');
     $w("#progressBar1").value = 25;
  });
@@ -85,7 +87,7 @@ $w('#nextButton1, #progress2, #yourcontactinfo').onClick(function () {
          if (tenantselec === "Tenan2") {
              $w("#tenanfirstname,#tenanlastname").expand();
              $w("#tenanfirstname,#tenanlastname").required = true;
-       
+             
          } else {
              $w("#tenanfirstname,#tenanlastname").collapse();
              $w("#tenanfirstname,#tenanlastname").required = false;
@@ -93,15 +95,15 @@ $w('#nextButton1, #progress2, #yourcontactinfo').onClick(function () {
          }
      });
  
-   //CO-APPLICANTS
+     //CO-APPLICANTS
  
-     $w("#coapplicantcheck").onChange(function () {
+       $w("#coapplicantcheck").onChange(function () {
          let cocheck = $w("#coapplicantcheck").value;
  
          if (cocheck === "coapplicant") {
              $w("#cofirstname,#colastname,#coaddress,#cophone").expand();
              $w("#cofirstname,#colastname,#coaddress,#cophone").required = true;
-       
+             
          } else {
              $w("#cofirstname,#colastname,#coaddress,#cophone").collapse();
              $w("#cofirstname,#colastname,#coaddress,#cophone").required = false;
@@ -109,15 +111,15 @@ $w('#nextButton1, #progress2, #yourcontactinfo').onClick(function () {
          }
      });
  
-   //OCCUPANTS 
+     //OCCUPANTS 
  
-     $w("#occupantcheck").onChange(function () {
+       $w("#occupantcheck").onChange(function () {
          let ocu = $w("#occupantcheck").value;
  
          if (ocu === "otheroccupants") {
              $w("#ocuppantfistname,#ocuppantlastname").expand();
              $w("#ocuppantfistname,#ocuppantlastname").required = true;
-       
+             
          } else {
              $w("#ocuppantfistname,#ocuppantlastname").collapse();
              $w("#ocuppantfistname,#ocuppantlastname").required = false;
@@ -125,15 +127,15 @@ $w('#nextButton1, #progress2, #yourcontactinfo').onClick(function () {
          }
      });
  
-   //PETS
+     //PETS
  
-     $w("#petscheck").onChange(function () {
+       $w("#petscheck").onChange(function () {
          let pets = $w("#petscheck").value;
  
          if (pets === "pets") {
              $w("#petname,#pettype,#weight,#PetAge").expand();
              $w("#petname,#pettype,#weight,#PetAge").required = true;
-       
+             
          } else {
              $w("#petname,#pettype,#weight,#PetAge").collapse();
              $w("#petname,#pettype,#weight,#PetAge").required = false;
@@ -141,15 +143,15 @@ $w('#nextButton1, #progress2, #yourcontactinfo').onClick(function () {
          }
      });
  
-   //VEHICLE 
+     //VEHICLE 
  
-     $w("#vehiclecheck").onChange(function () {
+       $w("#vehiclecheck").onChange(function () {
          let vehicle = $w("#vehiclecheck").value;
  
          if (vehicle === "vehicle") {
              $w("#vehiclebrand,#vehiclemodel,#vehicleyear,#vehiclecolor,#licensenumber").expand();
              $w("#vehiclebrand,#vehiclemodel,#vehicleyear,#vehiclecolor,#licensenumber").required = true;
-       
+             
          } else {
              $w("#vehiclebrand,#vehiclemodel,#vehicleyear,#vehiclecolor,#licensenumber").collapse();
              $w("#vehiclebrand,#vehiclemodel,#vehicleyear,#vehiclecolor,#licensenumber").required = false;
@@ -176,4 +178,4 @@ $w('#nextButton1, #progress2, #yourcontactinfo').onClick(function () {
       //SUBMIT AGAIN
    $w("#summitagain").onClick(function () {
     $w("#rentalmultistatebox").changeState("beforebegin"); 
-     });
+     });  */
