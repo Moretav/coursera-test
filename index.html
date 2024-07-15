@@ -1,80 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Customer Service</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#appointment">Make an Appointment</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>oru menu</title>
-    <style type="text/css">
-      
-      p{
-        font-family: arial;
-        color: black;
-        padding: 100px;
-        background-color: silver;
-        border:2px;
-        margin:10px 10px 10px 10px;
+    <section id="home">
+        <h2>Welcome to Our Customer Service</h2>
+        <p>We are here to help you with all your needs.</p>
+    </section>
 
-      }
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Service 1</li>
+            <li>Service 2</li>
+            <li>Service 3</li>
+        </ul>
+    </section>
 
-       h2{
-        text align="rigth"
-      background-color: red
+    <section id="appointment">
+        <h2>Make an Appointment</h2>
+        <form id="appointmentForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
-      }
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-    </style>
+            <label for="service">Service:</label>
+            <select id="service" name="service" required>
+                <option value="service1">Service 1</option>
+                <option value="service2">Service 2</option>
+                <option value="service3">Service 3</option>
+            </select>
 
-  </head>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
 
+            <button type="submit">Submit</button>
+        </form>
+    </section>
 
-<!-- note:i have some problem with my css i can't written 
-  some code in the css and make the change on the thml.index--> 
+    <section id="payment">
+        <h2>Pay for Service</h2>
+        <form id="paymentForm">
+            <label for="cardNumber">Card Number:</label>
+            <input type="text" id="cardNumber" name="cardNumber" required>
 
-  <body borde: 1px solid;
-        >
+            <label for="expiry">Expiry Date:</label>
+            <input type="text" id="expiry" name="expiry" required>
 
-    <h1 text align=" center"> our menu </h1>
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required>
 
-    <h2 text align="rigth"
-      background-color: red> chicken </h2>
+            <button type="submit">Pay Now</button>
+        </form>
+    </section>
 
-      
+    <footer>
+        <p>&copy; 2024 Customer Service</p>
+    </footer>
 
-       <p text align="center" border-style:solid;>“Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-       sed do eiusmodtempor incididunt ut labore et dolore <br/> magna 
-       aliqua.”
-
-       </p>
-
-       <h2 text align="rigth"
-         background: red;> suchi</h2>
-      
-
-       <p text align="center">“Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-       sed do eiusmod tempor incididunt ut labore et dolore<br/> magna 
-       aliqua.”
-
-       </p>
-
-     
-
-    <h2 text align="rigth
-       " backgound: red;>Beef</h2>
-
-      
-
-       <p text align="center">“Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-         sed do eiusmod tempor incididunt ut labore et dolore<br/> magna 
-         aliqua.”
-
-       </p>
-
-      
-
-
-
-
-
-  </body>
+    <script src="script.js"></script>
+</body>
 </html>
